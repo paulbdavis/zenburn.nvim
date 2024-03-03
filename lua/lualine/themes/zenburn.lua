@@ -1,39 +1,42 @@
 local c = require("zenburn.palette")
+local mfg = "#282828"
+local bb = { fg = "#ebdbb2", bg="#504945" }
+local cc = { fg = "#a89984", bg="#3c3836" }
 return {
 	normal = {
-		a = {bg =c.SpecialComment.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg="#a89984", fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg="#a89984", fg=mfg},
 	},
 	insert = {
-		a = {bg =c.Function.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg="#83a598", fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg="#83a598", fg=mfg},
 	},
 	visual = {
-		a = {bg =c.Define.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg="#b4be82", fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg="#b4be82", fg=mfg},
 	},
 	replace = {
-		a = {bg =c.Number.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg="#e2a478", fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg="#e2a478", fg=mfg},
 	},
 	command = {
-		a = {bg =c.Boolean.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg="#b8bb26", fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg="#b8bb26", fg=mfg},
 	},
 	inactive = {
-		a = {bg =c.Delimiter.fg, fg=c.SignColumn.fg, gui="bold"},
-		b = {bg =c.LineNr.fg, fg=c.Normal.fg},
-		c = {bg =c.CursorLine.bg, fg=c.Normal.fg},
-		z = {bg =c.Delimiter.fg, fg=c.SignColumn.fg},
+		a = {bg=c.Delimiter.fg, fg=mfg, gui="bold"},
+		b = bb,
+		c = cc,
+		z = {bg=c.Delimiter.fg, fg=mfg},
 	},
 }
