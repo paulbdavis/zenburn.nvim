@@ -1,6 +1,8 @@
 Zenburn
 =======
 
+** This is a fork of zenburn.nvim with high contrast as supported in the original vim zenburn theme.**
+
 A port of the venerable [Zenburn](https://github.com/jnurmine/Zenburn)
 colorscheme to lua.
 
@@ -11,7 +13,7 @@ The aim of this port is to bring Zenburn into the modern age, with support for
 [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and many
 more plugins.
 
-![Screenshot 1](images/screenshot01.png)
+![Screenshot 1](images/11.png)
 
 Installation
 ------------
