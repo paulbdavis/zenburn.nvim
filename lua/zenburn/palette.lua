@@ -58,7 +58,7 @@ return {
 	SpellLocal = { sp="#7cac7c", fg="#9ccc9c", },
 	SpellRare = { sp="#bc6c9c", fg="#bc8cbc", },
 	Statement = { fg="#e3ceab", },
-	StatusLine = { fg="#313633", bg="#ccdc90", },
+	StatusLine = { fg="#dcdccc", bg="#3f3f3f", },
 	StatusLineNC = { fg="#2e3330", bg="#88b090", },
 	StorageClass = { fg="#c3bf9f", bold=true, },
 	String = { fg="#cc9393", },
