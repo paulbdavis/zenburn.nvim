@@ -1,11 +1,10 @@
 local palette = require("zenburn.colors")
 
 return {
-
-	Boolean = { fg="#dca3a3", },
-	Character = { fg="#dca3a3", bold=true, },
+	Boolean = { fg=palette.red, },
+	Character = { fg=palette.red, bold=true, },
 	ColorColumn = { bg="#33332f", },
-	Comment = { fg="#7f9f7f", },
+	Comment = { fg=palette.green, },
 	Conditional = { fg="#f0dfaf", bold=true, },
 	Constant = { fg="#dca3a3", bold=true, },
 	Cursor = { fg="#000d18", bg="#8faf9f", bold=true, },
@@ -25,7 +24,7 @@ return {
 	Float = { fg="#c0bed1", },
 	FoldColumn = { fg="#161616", bg="#3f4040", },
 	Folded = { fg="#161616", bg="#3f4040", },
-	Function = { fg="#efef8f", },
+	Function = { fg=palette.blue},
 	Identifier = { fg="#efdcbc", },
 	Include = { fg="#dfaf8f" ,bold=true, },
 	IncSearch = { bg="#f8f893", fg="#385f38", },
@@ -38,7 +37,7 @@ return {
 	ModeMsg = { fg="#ffcfaf", },
 	MoreMsg = { fg="#ffffff", bold=true, },
 	NonText = { fg="#404040", bold=true, },
-	Normal = { fg="#dcdccc", bg="#1f1f1f", },
+	Normal = { fg=palette.fg, bg=palette.bg, },
 	NormalFloat = { bg="#353535", fg="#9f9f9f", },
 	Number = { fg="#8cd0d3", },
 	Operator = { fg="#f0efd0", },
