@@ -1,4 +1,7 @@
+local palette = require("zenburn.colors")
+
 return {
+
 	Boolean = { fg="#dca3a3", },
 	Character = { fg="#dca3a3", bold=true, },
 	ColorColumn = { bg="#33332f", },
@@ -66,7 +69,7 @@ return {
 	TabLine = { fg="#88b090", bg="#313633", bold=true, },
 	TabLineFill = { fg="#88b090", bg="#313633", bold=true, },
 	TabLineSel = { fg="#ccd990", bg="#222222", bold=true, },
-	Tag = { fg="#e89393", bold=true, },
+	Tag = { fg=palette["fg"], bold=true, },
 	Title = { fg="#efefef", bold=true, },
 	Todo = { fg="#dfdfdf", bold=true, },
 	Type = { fg="#dfdfbf", },
