@@ -6,11 +6,11 @@ return {
 	LspSignatureActiveParameter = { fg=c.yellow, bold=true },
 
 
-	DiagnosticVirtualTextOk = {fg=c.green},
-	DiagnosticVirtualTextHint = {fg=c.cyan},
-	DiagnosticVirtualTextInfo = {fg=c.blue},
-	DiagnosticVirtualTextWarn = {fg=c.yellow},
-	DiagnosticVirtualTextError = {fg=c.red},
+	DiagnosticOk = {fg=c.green},
+	DiagnosticHint = {fg=c.cyan},
+	DiagnosticInfo = {fg=c.blue},
+	DiagnosticWarn = {fg=c.yellow},
+	DiagnosticError = {fg=c.red},
 
     -- ['@lsp.type.class'] = c.Type,
     -- ['@lsp.type.comment'] = c.Comment,
