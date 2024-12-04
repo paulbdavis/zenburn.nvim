@@ -5,7 +5,7 @@ return {
 	Character = { fg=palette.red, bold=true, },
 	ColorColumn = { bg="#33332f", },
 	Comment = { fg=palette.green, },
-	Conditional = { fg="#f0dfaf", bold=true, },
+	Conditional = { fg=palette.yellow, bold=true, },
 	Constant = { fg="#dca3a3", bold=true, },
 	Cursor = { fg="#000d18", bg="#8faf9f", bold=true, },
 	CursorColumn = { bg="#2b2b2b", },

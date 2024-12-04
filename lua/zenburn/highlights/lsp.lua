@@ -1,9 +1,16 @@
-local c = require("zenburn.palette")
+local c = require("zenburn.colors")
 return {
-	LspReferenceText = c.IncSearch,
-	LspReferenceRead = c.IncSearch,
-	LspReferenceWrite = c.IncSearch,
-	LspSignatureActiveParameter = { fg=c.Conditional.fg, bold=true },
+	LspReferenceText = { fg=c.fg, bg=c.green },
+	LspReferenceRead = { fg=c.fg, bg=c.green },
+	LspReferenceWrite = { fg=c.fg, bg=c.green },
+	LspSignatureActiveParameter = { fg=c.yellow, bold=true },
+
+
+	DiagnosticVirtualTextOk = {fg=c.green},
+	DiagnosticVirtualTextHint = {fg=c.cyan},
+	DiagnosticVirtualTextInfo = {fg=c.blue},
+	DiagnosticVirtualTextWarn = {fg=c.yellow},
+	DiagnosticVirtualTextError = {fg=c.red},
 
     -- ['@lsp.type.class'] = c.Type,
     -- ['@lsp.type.comment'] = c.Comment,
